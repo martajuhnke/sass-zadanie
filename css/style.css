@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Open Sans";
+  background-color: #001d8a; }
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0; }
+  header #main-logo {
+    display: inline-block;
+    margin-left: 30px; }
+    header #main-logo h1 {
+      display: inline-block;
+      margin: 0; }
+    header #main-logo i {
+      color: #ecd407;
+      font-size: 2rem;
+      float: left;
+      margin-right: 0.8rem; }
+  header .header-contact {
+    display: inline-block;
+    float: right;
+    width: 300px; }
+    header .header-contact span {
+      display: block; }
+      header .header-contact span.call {
+        font-size: 0.8rem; }
+      header .header-contact span.phone {
+        font-size: 0.8rem; }
+    header .header-contact i {
+      font-size: 2rem;
+      float: left;
+      margin-right: 0.8rem; }
+
+#form-section {
+  background-image: url(../img/background.png);
+  height: 900px;
+  background-position: top;
+  background-size: cover; }
+
+.form-section-right {
+  position: absolute;
+  right: 8%;
+  width: 370px;
+  top: 25%; }
+  .form-section-right .yellow {
+    color: #ecd407; }
+  .form-section-right #main-form {
+    background-color: #001d8a; }
+    .form-section-right #main-form fieldset {
+      border-style: none; }
+      .form-section-right #main-form fieldset input:not([type="submit"]),
+      .form-section-right #main-form fieldset textarea {
+        color: black;
+        width: 100%;
+        padding: 10px; }
+      .form-section-right #main-form fieldset input[type="submit"] {
+        background-color: #ecd407;
+        font-size: 1.3rem;
+        padding: 10px;
+        font-weight: 700; }
+  .form-section-right footer {
+    background-color: #292929;
+    padding: 20px; }
+    .form-section-right footer .container1 {
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+      margin: 0 auto; }
+    .form-section-right footer .container {
+      text-align: center;
+      font-size: 0.7rem; }
